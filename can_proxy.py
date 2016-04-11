@@ -1,6 +1,6 @@
 #!/usr/bin/pyton3
 """
-Author: Johannes.Schabauer@ait.ac.at
+Author: Johannes.Schabauer
 Date:   22nd of Dec. 2015
 
 Description:
@@ -175,7 +175,7 @@ def main():
     
     #Logging Initialisieren
     log.warn("********************");
-    log.warn("CAN Proxy coming up 25");
+    log.warn("CAN Proxy coming up");
     log.warn("********************");
     
     if len(sys.argv) != 4:
