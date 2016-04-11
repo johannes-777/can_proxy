@@ -1,0 +1,17 @@
+Versionen "can_proxy"
+
+Datum       Beschreibung
+=========================================================================================================
+22.12.2015  UDP Socket wird geöffnet und Packete empfangen
+            logging funktioniert
+            CAN-Packete werden überprüft
+11.02.2016  Multithreading: 1 Thread für UDP-Server, 1 Thread für CAN-Server   
+            Proxy empfängt UDP Packete und leitet sie auf CAN Socket weiter
+            Proxy empfängt CAN Packete und leitet sie per UDP weiter
+10.03.2016  Weiterleitung der CAN-Packete auch nach Neustart des Clients 
+            Logging verbessert
+            
+            
+ToDo
+=========================================================================================================
+Derzeit keine Probleme bekannt.
